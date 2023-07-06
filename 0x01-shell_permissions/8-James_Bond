@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 777 hello 2>/dev/null
+chmod +rwx hello
