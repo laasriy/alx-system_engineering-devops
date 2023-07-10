@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "Inputting word: " words
+word=$(echo "$words" | tr ' ' '\n' | sort | uniq -u)
+
+echo "$word"
+
